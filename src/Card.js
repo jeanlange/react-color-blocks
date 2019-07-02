@@ -26,14 +26,23 @@ class Card extends Component {
 
     render() {
         const color = this.state.color;
+        const dimension = this.props.dimension;
         return (
             <div
-                style={{backgroundColor: color}}
+                style={{
+                    backgroundColor: color,
+                    width: `${dimension}%`,
+                    height: `${dimension}%`,
+                }}
                 className="box"
                 onMouseEnter={this.changeColor}
             />
         )
     }
+}
+
+Card.defaultProps = {
+    dimension: '10'
 }
 
 export default Card;
