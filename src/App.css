@@ -1,6 +1,13 @@
-.box {
-  height: 10vh;
-  width: 10vw;
+.container {
+  height: 20vh;
+  width: 20vw;
   display: inline-block;
-  margin-top: -4px;
+  border: 1px solid red;
+}
+
+.box {
+  height: 10%;
+  width: 10%;
+  position: relative;
+  float: left;
 }

@@ -7,6 +7,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <Cards number="100" />
+        <Cards number="100" />
+        <Cards number="100" />
+        <Cards number="100" />
+        <Cards number="100" />
         <Cards number="100" />
       </div>
     )

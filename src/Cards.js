@@ -10,7 +10,7 @@ class Cards extends Component {
         }
 
         return (
-            <div>
+            <div className="container">
                 {cards}
             </div>
         )
