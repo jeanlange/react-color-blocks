@@ -9,4 +9,4 @@ Inspiration: https://jenniferdewalt.com/technicolor_boxes.html
 
 ## How do?
 
-run `npm start` and browse to `localhost:3000`.
+run `npm start` and browse to `localhost:3000`. Start mousing about!
